@@ -5,11 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lilit Kharatyan</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body class="bg-white text-gray-900 font-sans antialiased">
-  <div class="max-w-3xl mx-auto p-6">
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-4xl mx-auto px-6 py-10 bg-white rounded-xl shadow-md">
 
-    <section class="mb-8">
+    <header class="flex items-center gap-6 mb-10">
+      <img src="profile.jpg" alt="Lilit Kharatyan" class="w-28 h-28 rounded-full shadow-sm border border-gray-300" />
+      <div>
+        <h1 class="text-4xl font-bold">Lilit Kharatyan</h1>
+        <p class="text-gray-600 text-lg">Computational Linguist</p>
+      </div>
+    </header>
+
+    <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-2">About Me</h2>
       <p class="text-gray-700 leading-relaxed">
         I’m a computational linguist currently working at the Chair of Comparative Philology at Julius-Maximilian University of Würzburg. I’m developing a digital tool for the study of valency classes in historical languages, with a focus on Classical Armenian.<br><br>
@@ -17,7 +29,14 @@
       </p>
     </section>
 
-    <section class="mb-8">
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">Education</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>MA in Computational Linguistics — Erasmus Mundus EMJMD program</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-2">Experience</h2>
       <ul class="list-disc list-inside text-gray-700">
         <li>2022 — Machine Translation Intern, Open University of Catalonia, Spain</li>
@@ -27,7 +46,7 @@
       </ul>
     </section>
 
-    <section class="mb-8">
+    <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-2">Awards & Grants</h2>
       <ul class="list-disc list-inside text-gray-700">
         <li>Erasmus Mundus Scholarship</li>
@@ -36,16 +55,16 @@
       </ul>
     </section>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold mb-2">Conference & Workshop Presentations</h2>
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">Publications & Posters</h2>
       <ul class="list-disc list-inside text-blue-600">
         <li><a href="#" target="_blank">CAVaL: Classical Armenian Valency Lexicon – ALT 2024, Singapore (Poster)</a></li>
         <li><a href="#" target="_blank">Automatic Speech-to-Text Translation: Cascaded or End-to-End? – CLIN 34, Leiden (Poster)</a></li>
-        <li><a href="#" target="_blank">Development of Linguistic Annotation Toolkits for Classical Armenian – DAAL 2024, Ghent</a></li>
+        <li><a href="#" target="_blank">Development of Linguistic Annotation Toolkits for Classical Armenian – DAAL 2024, Ghent (Paper)</a></li>
       </ul>
     </section>
 
-    <footer class="mt-12 text-sm text-gray-500">
+    <footer class="mt-12 border-t pt-4 text-sm text-gray-600">
       <p>Contact: lilit.kharatyan [at] uni-wuerzburg [dot] de</p>
       <p><a href="https://github.com/lilitkharatyan" class="underline">GitHub Profile</a></p>
     </footer>
