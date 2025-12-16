@@ -1,5 +1,5 @@
 ## Hi, I am Lilit 👋
-NLP/ML Researcher · Computational Linguist · Rigorous MT/LLM evaluation & trustworthy AI
+NLP/ML Researcher · Computational Linguist · Digital Humanities
 
 I build web‑based research tools and end‑to‑end NLP pipelines: from data acquisition and corpus cleaning to model training, evaluation, and deployment. My current focus is transparent, reproducible evaluation and cross‑model benchmarking for LLMs, along with practical tooling for historical/low‑resource languages.
 
